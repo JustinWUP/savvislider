@@ -42,7 +42,7 @@ body {
 
   /*	-	THE BANNER CONTAINER (Padding, Shadow, Border etc. )	-	*/
 
-  .bannercontainer {
+.bannercontainer {
 		margin-top:90px;
 		padding:5px;
 		background-color:#fff;
@@ -54,13 +54,17 @@ body {
 
 	}
 
-  .banner{
-		width:887px;
-		height:307px;
-		position:relative;
-		overflow:hidden;
-   }
+.banner{
+	width:887px;
+	height:307px;
+	position:relative;
+	overflow:hidden;
+}
 
+.banner .white-bg img {
+	padding: 3px;
+	background: #fff;
+}
 
   .bannercontainer2 {
 		padding:0px;
