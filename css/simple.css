@@ -30,6 +30,7 @@ html {
 }
 
 body {
+	margin: 20px auto;
 	background: #82155d url('../images/tiles/page-bg.png') repeat-x;
 }
 
@@ -43,50 +44,50 @@ body {
   /*	-	THE BANNER CONTAINER (Padding, Shadow, Border etc. )	-	*/
 
 .bannercontainer {
-		margin-top:90px;
-		padding:5px;
-		background-color:#fff;
-		width:887px;
-		position:relative;
-		position:relative;
-		margin-left:auto;
-		margin-right:auto;
-
-	}
+	margin-top:90px;
+	padding:5px;
+	width:90% !important;
+	max-height:500px !important;
+	background-color:#fff;
+	position:relative;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
 
 .banner{
-	width:887px;
 	height:307px;
 	position:relative;
 	overflow:hidden;
 }
 
 .banner .white-bg img {
-	padding: 3px;
+	padding: 2px;
 	background: #fff;
 }
 
-  .bannercontainer2 {
-		padding:0px;
-		background-color:#3e5da2;
-		width:307px;
-		position:relative;
-		position:relative;
-		margin-left:auto;
-		margin-right:auto;
+/* Rotated thumbnail images */
 
-	}
+.banner .white-bg:nth-of-type(2) img {
+	transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+}
 
-  .banner2{
-		width:400px;
-		height:300px;
-		position:relative;
-		overflow:hidden;
-   }
+.banner .white-bg:nth-of-type(3) img {
+	transform: rotate(-4deg);
+	-webkit-transform: rotate(-4deg);
+	-o-transform: rotate(-4deg);
+}
 
-	.flashing {
-		width: 100%;
-		height: 100%;
-		background: #fff;
-	}
+.banner .white-bg:nth-of-type(4) img {
+	transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+}
 
+.banner .white-bg:nth-of-type(5) img {
+	transform: rotate(-7deg);
+	-webkit-transform: rotate(-7deg);
+	-o-transform: rotate(-7deg);
+}
