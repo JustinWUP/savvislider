@@ -44,10 +44,11 @@ body {
   /*	-	THE BANNER CONTAINER (Padding, Shadow, Border etc. )	-	*/
 
 .bannercontainer {
-	margin-top:90px;
-	padding:5px;
-	width:90% !important;
-	max-height:500px !important;
+	margin-top: 90px;
+	padding: 5px;
+	width: 90% !important;
+	max-width: 887px;
+	max-height: 500px !important;
 	background-color:#fff;
 	position:relative;
 	position:relative;
@@ -55,7 +56,7 @@ body {
 	margin-right:auto;
 }
 
-.banner{
+.banner {
 	height:307px;
 	position:relative;
 	overflow:hidden;

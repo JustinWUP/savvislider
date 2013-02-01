@@ -172,9 +172,9 @@
 							<!-- Want your tux for free? -->
 							<li data-transition="fade" data-delay="5000" data-slotamount="0" data-masterspeed="400">
 								<img src="images/slides/image12.jpg"/>
-                                <div class="caption lfl" data-x="290" data-y="270" data-speed="900" data-start="700" data-easing="easeOutBack"><img src="images/slides/caption-free-tux-1.png"></div>
-                                <div class="caption lfb" data-x="652" data-y="270" data-speed="900" data-start="1500" data-easing="easeOutBack"><img src="images/slides/caption-free-tux-2.png"></div>
-							</li>							
+                                <div class="caption lfl" data-x="230" data-y="230" data-speed="900" data-start="700" data-easing="easeOutBack"><img src="images/slides/caption-free-tux-1.png"></div>
+                                <div class="caption lfb" data-x="592" data-y="230" data-speed="900" data-start="1500" data-easing="easeOutBack"><img src="images/slides/caption-free-tux-2.png"></div>
+							</li>						
 						</ul>
 					</div>
 				</div>
